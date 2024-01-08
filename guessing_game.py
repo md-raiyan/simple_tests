@@ -8,9 +8,9 @@ for round in range (num_rounds):
     c_guess = random.randint(1,3) 
     u_guess = int(input("Guess a number between 1 to 3: "))
     if (c_guess == u_guess):
-        print ("Conrgats")
+        print ("Conrgats! You got it")
         point = point+1
     else:
-        print ("Better luck next time. Computers number was " + str (c_guess))    
+        print ("Nope! Better luck next time. Computer's number was " + str (c_guess))    
 
 print ("You got " + str (point) + " points out of " + str (num_rounds))
